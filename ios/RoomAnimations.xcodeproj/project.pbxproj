@@ -12,14 +12,15 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		269D21CE6D2097791DD1B608 /* libPods-RoomAnimationsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9C0148258710255922D4F50 /* libPods-RoomAnimationsTests.a */; };
+		2BDF23441C87A3387A3E316A /* libPods-RoomAnimations-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A559CCE0CD7785F017305445 /* libPods-RoomAnimations-tvOS.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* RoomAnimationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RoomAnimationsTests.m */; };
-		3BCCCD1F4BDB859584A0A10E /* libPods-RoomAnimations-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F2A3D372BF2EB17DC574583 /* libPods-RoomAnimations-tvOSTests.a */; };
-		40A36013A4BC63648B36ACB6 /* libPods-RoomAnimations-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 807E8D851CEBD6C240A8E4D9 /* libPods-RoomAnimations-tvOS.a */; };
-		E3B33952883D8684E25D2B7A /* libPods-RoomAnimations.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 360AE6E1908014460E59B109 /* libPods-RoomAnimations.a */; };
+		2E64595A236DF393001E57FC /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E645959236DF393001E57FC /* File.swift */; };
+		89ED6109BD407ED6145695B8 /* libPods-RoomAnimations-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D0A3CA3FA572988A628000 /* libPods-RoomAnimations-tvOSTests.a */; };
+		AF36EF5B022DEFBC8A766AEE /* libPods-RoomAnimations.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C38F33783E93CB9B2F9ADD2 /* libPods-RoomAnimations.a */; };
+		DDDDB1285B699BF0A3C44570 /* libPods-RoomAnimationsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C2B296A50E81AC229EE8D5 /* libPods-RoomAnimationsTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +45,6 @@
 		00E356EE1AD99517003FC87E /* RoomAnimationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoomAnimationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* RoomAnimationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoomAnimationsTests.m; sourceTree = "<group>"; };
-		02D097F6D3759108471B28F7 /* Pods-RoomAnimations-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomAnimations-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-RoomAnimations-tvOS/Pods-RoomAnimations-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		0D86898A4A15818AEF931047 /* Pods-RoomAnimations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomAnimations.release.xcconfig"; path = "Target Support Files/Pods-RoomAnimations/Pods-RoomAnimations.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* RoomAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoomAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RoomAnimations/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = RoomAnimations/AppDelegate.m; sourceTree = "<group>"; };
@@ -53,20 +52,24 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RoomAnimations/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RoomAnimations/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RoomAnimations/main.m; sourceTree = "<group>"; };
-		2A07423BC74614DF28DFA662 /* Pods-RoomAnimationsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomAnimationsTests.debug.xcconfig"; path = "Target Support Files/Pods-RoomAnimationsTests/Pods-RoomAnimationsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* RoomAnimations-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RoomAnimations-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* RoomAnimations-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RoomAnimations-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		360AE6E1908014460E59B109 /* libPods-RoomAnimations.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RoomAnimations.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		48F088D7C51E9669016FECF8 /* Pods-RoomAnimations-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomAnimations-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-RoomAnimations-tvOSTests/Pods-RoomAnimations-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		4F2A3D372BF2EB17DC574583 /* libPods-RoomAnimations-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RoomAnimations-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		75121B2B9DA78067675D77DA /* Pods-RoomAnimations-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomAnimations-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-RoomAnimations-tvOSTests/Pods-RoomAnimations-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		807E8D851CEBD6C240A8E4D9 /* libPods-RoomAnimations-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RoomAnimations-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		83BE56B6C4DC0E315D69324C /* Pods-RoomAnimationsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomAnimationsTests.release.xcconfig"; path = "Target Support Files/Pods-RoomAnimationsTests/Pods-RoomAnimationsTests.release.xcconfig"; sourceTree = "<group>"; };
-		A33D2AD431A3001039205679 /* Pods-RoomAnimations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomAnimations.debug.xcconfig"; path = "Target Support Files/Pods-RoomAnimations/Pods-RoomAnimations.debug.xcconfig"; sourceTree = "<group>"; };
-		E9C0148258710255922D4F50 /* libPods-RoomAnimationsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RoomAnimationsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E645958236DF393001E57FC /* RoomAnimations-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RoomAnimations-Bridging-Header.h"; sourceTree = "<group>"; };
+		2E645959236DF393001E57FC /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		411C47CD06987A87947AE023 /* Pods-RoomAnimations-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomAnimations-tvOS.release.xcconfig"; path = "Target Support Files/Pods-RoomAnimations-tvOS/Pods-RoomAnimations-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		5C38F33783E93CB9B2F9ADD2 /* libPods-RoomAnimations.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RoomAnimations.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		747A3FC92D2DB72B28F9CB0D /* Pods-RoomAnimations-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomAnimations-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-RoomAnimations-tvOS/Pods-RoomAnimations-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		76C2B296A50E81AC229EE8D5 /* libPods-RoomAnimationsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RoomAnimationsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78CAF4517F6B625F9DEDC968 /* Pods-RoomAnimationsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomAnimationsTests.debug.xcconfig"; path = "Target Support Files/Pods-RoomAnimationsTests/Pods-RoomAnimationsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C873373560048C84C031717 /* Pods-RoomAnimationsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomAnimationsTests.release.xcconfig"; path = "Target Support Files/Pods-RoomAnimationsTests/Pods-RoomAnimationsTests.release.xcconfig"; sourceTree = "<group>"; };
+		9C983A56279D28C638C7795D /* Pods-RoomAnimations-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomAnimations-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-RoomAnimations-tvOSTests/Pods-RoomAnimations-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A559CCE0CD7785F017305445 /* libPods-RoomAnimations-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RoomAnimations-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9997F8BC5D09CA6D7F1A9AE /* Pods-RoomAnimations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomAnimations.debug.xcconfig"; path = "Target Support Files/Pods-RoomAnimations/Pods-RoomAnimations.debug.xcconfig"; sourceTree = "<group>"; };
+		E4F6DA0878F90B942A26708C /* Pods-RoomAnimations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomAnimations.release.xcconfig"; path = "Target Support Files/Pods-RoomAnimations/Pods-RoomAnimations.release.xcconfig"; sourceTree = "<group>"; };
+		E7D0A3CA3FA572988A628000 /* libPods-RoomAnimations-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RoomAnimations-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		FE91FB755069B5D38E8EA883 /* Pods-RoomAnimations-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomAnimations-tvOS.release.xcconfig"; path = "Target Support Files/Pods-RoomAnimations-tvOS/Pods-RoomAnimations-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		FDB45B55DAC65ED97E10A0EC /* Pods-RoomAnimations-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomAnimations-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-RoomAnimations-tvOSTests/Pods-RoomAnimations-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				269D21CE6D2097791DD1B608 /* libPods-RoomAnimationsTests.a in Frameworks */,
+				DDDDB1285B699BF0A3C44570 /* libPods-RoomAnimationsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3B33952883D8684E25D2B7A /* libPods-RoomAnimations.a in Frameworks */,
+				AF36EF5B022DEFBC8A766AEE /* libPods-RoomAnimations.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40A36013A4BC63648B36ACB6 /* libPods-RoomAnimations-tvOS.a in Frameworks */,
+				2BDF23441C87A3387A3E316A /* libPods-RoomAnimations-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BCCCD1F4BDB859584A0A10E /* libPods-RoomAnimations-tvOSTests.a in Frameworks */,
+				89ED6109BD407ED6145695B8 /* libPods-RoomAnimations-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +144,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				360AE6E1908014460E59B109 /* libPods-RoomAnimations.a */,
-				807E8D851CEBD6C240A8E4D9 /* libPods-RoomAnimations-tvOS.a */,
-				4F2A3D372BF2EB17DC574583 /* libPods-RoomAnimations-tvOSTests.a */,
-				E9C0148258710255922D4F50 /* libPods-RoomAnimationsTests.a */,
+				5C38F33783E93CB9B2F9ADD2 /* libPods-RoomAnimations.a */,
+				A559CCE0CD7785F017305445 /* libPods-RoomAnimations-tvOS.a */,
+				E7D0A3CA3FA572988A628000 /* libPods-RoomAnimations-tvOSTests.a */,
+				76C2B296A50E81AC229EE8D5 /* libPods-RoomAnimationsTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,12 +162,14 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				2E645959236DF393001E57FC /* File.swift */,
 				13B07FAE1A68108700A75B9A /* RoomAnimations */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* RoomAnimationsTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				E63A2CFE5086024F91E792DC /* Pods */,
+				2E645958236DF393001E57FC /* RoomAnimations-Bridging-Header.h */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -185,14 +190,14 @@
 		E63A2CFE5086024F91E792DC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A33D2AD431A3001039205679 /* Pods-RoomAnimations.debug.xcconfig */,
-				0D86898A4A15818AEF931047 /* Pods-RoomAnimations.release.xcconfig */,
-				02D097F6D3759108471B28F7 /* Pods-RoomAnimations-tvOS.debug.xcconfig */,
-				FE91FB755069B5D38E8EA883 /* Pods-RoomAnimations-tvOS.release.xcconfig */,
-				48F088D7C51E9669016FECF8 /* Pods-RoomAnimations-tvOSTests.debug.xcconfig */,
-				75121B2B9DA78067675D77DA /* Pods-RoomAnimations-tvOSTests.release.xcconfig */,
-				2A07423BC74614DF28DFA662 /* Pods-RoomAnimationsTests.debug.xcconfig */,
-				83BE56B6C4DC0E315D69324C /* Pods-RoomAnimationsTests.release.xcconfig */,
+				C9997F8BC5D09CA6D7F1A9AE /* Pods-RoomAnimations.debug.xcconfig */,
+				E4F6DA0878F90B942A26708C /* Pods-RoomAnimations.release.xcconfig */,
+				747A3FC92D2DB72B28F9CB0D /* Pods-RoomAnimations-tvOS.debug.xcconfig */,
+				411C47CD06987A87947AE023 /* Pods-RoomAnimations-tvOS.release.xcconfig */,
+				9C983A56279D28C638C7795D /* Pods-RoomAnimations-tvOSTests.debug.xcconfig */,
+				FDB45B55DAC65ED97E10A0EC /* Pods-RoomAnimations-tvOSTests.release.xcconfig */,
+				78CAF4517F6B625F9DEDC968 /* Pods-RoomAnimationsTests.debug.xcconfig */,
+				9C873373560048C84C031717 /* Pods-RoomAnimationsTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -204,7 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RoomAnimationsTests" */;
 			buildPhases = (
-				5F1B1BE86574430EF1094ED3 /* [CP] Check Pods Manifest.lock */,
+				B107AA4E565D6E6326BB5B66 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -223,7 +228,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RoomAnimations" */;
 			buildPhases = (
-				91E8B9E2A83E7C9E068D3006 /* [CP] Check Pods Manifest.lock */,
+				9217DB78D91315F4671C821C /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -243,7 +248,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "RoomAnimations-tvOS" */;
 			buildPhases = (
-				E6D369A0BFAA6C92151D1468 /* [CP] Check Pods Manifest.lock */,
+				8E38BE569F8300680EB5B322 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -263,7 +268,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "RoomAnimations-tvOSTests" */;
 			buildPhases = (
-				F595427FB0378D8B8FE200A1 /* [CP] Check Pods Manifest.lock */,
+				7266EFBA8D5A48D9BAB4BD4A /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -294,6 +299,7 @@
 					};
 					13B07F861A680F5B00A75B9A = {
 						DevelopmentTeam = 35N8A68D46;
+						LastSwiftMigration = 1110;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -391,7 +397,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		5F1B1BE86574430EF1094ED3 /* [CP] Check Pods Manifest.lock */ = {
+		7266EFBA8D5A48D9BAB4BD4A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -406,36 +412,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RoomAnimationsTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RoomAnimations-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		91E8B9E2A83E7C9E068D3006 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RoomAnimations-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E6D369A0BFAA6C92151D1468 /* [CP] Check Pods Manifest.lock */ = {
+		8E38BE569F8300680EB5B322 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -457,7 +441,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F595427FB0378D8B8FE200A1 /* [CP] Check Pods Manifest.lock */ = {
+		9217DB78D91315F4671C821C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -472,7 +456,29 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RoomAnimations-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RoomAnimations-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B107AA4E565D6E6326BB5B66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoomAnimationsTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -533,6 +539,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				2E64595A236DF393001E57FC /* File.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -584,8 +591,9 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A07423BC74614DF28DFA662 /* Pods-RoomAnimationsTests.debug.xcconfig */;
+			baseConfigurationReference = 78CAF4517F6B625F9DEDC968 /* Pods-RoomAnimationsTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				DEVELOPMENT_TEAM = 35N8A68D46;
@@ -609,8 +617,9 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83BE56B6C4DC0E315D69324C /* Pods-RoomAnimationsTests.release.xcconfig */;
+			baseConfigurationReference = 9C873373560048C84C031717 /* Pods-RoomAnimationsTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				COPY_PHASE_STRIP = NO;
@@ -631,9 +640,10 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A33D2AD431A3001039205679 /* Pods-RoomAnimations.debug.xcconfig */;
+			baseConfigurationReference = C9997F8BC5D09CA6D7F1A9AE /* Pods-RoomAnimations.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = 35N8A68D46;
@@ -646,15 +656,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RoomAnimations;
+				SWIFT_OBJC_BRIDGING_HEADER = "RoomAnimations-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D86898A4A15818AEF931047 /* Pods-RoomAnimations.release.xcconfig */;
+			baseConfigurationReference = E4F6DA0878F90B942A26708C /* Pods-RoomAnimations.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 35N8A68D46;
 				INFOPLIST_FILE = RoomAnimations/Info.plist;
@@ -666,13 +680,15 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RoomAnimations;
+				SWIFT_OBJC_BRIDGING_HEADER = "RoomAnimations-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02D097F6D3759108471B28F7 /* Pods-RoomAnimations-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 747A3FC92D2DB72B28F9CB0D /* Pods-RoomAnimations-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -700,7 +716,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE91FB755069B5D38E8EA883 /* Pods-RoomAnimations-tvOS.release.xcconfig */;
+			baseConfigurationReference = 411C47CD06987A87947AE023 /* Pods-RoomAnimations-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -728,7 +744,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48F088D7C51E9669016FECF8 /* Pods-RoomAnimations-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 9C983A56279D28C638C7795D /* Pods-RoomAnimations-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -755,7 +771,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75121B2B9DA78067675D77DA /* Pods-RoomAnimations-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = FDB45B55DAC65ED97E10A0EC /* Pods-RoomAnimations-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;

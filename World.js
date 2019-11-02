@@ -1,5 +1,11 @@
 import React, {Component} from 'react';
-import {View, PanResponder, Dimensions} from 'react-native';
+import {
+  View,
+  PanResponder,
+  Dimensions,
+  TouchableOpacity,
+  Text,
+} from 'react-native';
 import {Surface} from 'gl-react-native';
 import {resolveAssetSource} from 'gl-react-native';
 import GL from 'gl-react';
@@ -22,6 +28,27 @@ let ball;
 let lastRendered = 0;
 
 export default class World extends Component {
+  static navigationOptions = ({navigation}) => {
+    return {
+      headerLeft: () => (
+        <TouchableOpacity
+          onPress={() => navigation.navigate('Bubbles')}
+          title="Info"
+          style={{
+            height: 60,
+            padding: 20,
+            borderRadius: 10,
+            backgroundColor: 'lightgrey',
+            position: 'absolute',
+            top: 50,
+          }}>
+          <Text>Bubbles</Text>
+        </TouchableOpacity>
+      ),
+      headerStyle: {height: 1},
+    };
+  };
+
   handleTouch(event) {
     let touchX = event.nativeEvent.locationX / window.width;
     let touchY = 1.0 - event.nativeEvent.locationY / window.height;
@@ -107,3 +134,22 @@ export default class World extends Component {
     );
   }
 }
+
+const styles = {
+  rootView: {
+    height: window.height,
+    width: window.width,
+  },
+  buttonStyle: {
+    position: 'absolute',
+    top: 500,
+    bottom: 0,
+    alignSelf: 'center',
+    borderWidth: 1,
+    borderColor: 'blue',
+    height: 60,
+    padding: 20,
+    borderRadius: 10,
+    backgroundColor: 'lightgrey',
+  },
+};

@@ -217,9 +217,17 @@ PODS:
     - React-cxxreact (= 0.61.3)
     - React-jsi (= 0.61.3)
     - ReactCommon/jscallinvoker (= 0.61.3)
+  - RNBubblePicker (1.0.1):
+    - React
+    - SIFloatingCollection
+  - RNGestureHandler (1.5.0):
+    - React
   - RNGL (2.42.1):
     - React
     - React-RCTImage
+  - RNReanimated (1.4.0):
+    - React
+  - SIFloatingCollection (3.0.1)
   - Yoga (1.14.0)
 
 DEPENDENCIES:
@@ -250,10 +258,15 @@ DEPENDENCIES:
   - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
   - ReactCommon/jscallinvoker (from `../node_modules/react-native/ReactCommon`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
+  - RNBubblePicker (from `../node_modules/react-native-bubble-picker`)
+  - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - RNGL (from `../node_modules/gl-react-native`)
+  - RNReanimated (from `../node_modules/react-native-reanimated`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SIFloatingCollection
   trunk:
     - boost-for-react-native
 
@@ -306,8 +319,14 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/Libraries/Vibration"
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
+  RNBubblePicker:
+    :path: "../node_modules/react-native-bubble-picker"
+  RNGestureHandler:
+    :path: "../node_modules/react-native-gesture-handler"
   RNGL:
     :path: "../node_modules/gl-react-native"
+  RNReanimated:
+    :path: "../node_modules/react-native-reanimated"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -337,9 +356,13 @@ SPEC CHECKSUMS:
   React-RCTText: b8f895b94aa0e7778fef28d13f3d71eed4a10c3d
   React-RCTVibration: 262588c97551b0b1c675468cda857466ba5af18f
   ReactCommon: c2c63d9290b422ca6ad5b3663073a015dd892ae9
+  RNBubblePicker: effa58f1b8be9184ab06752084019c570308cbc5
+  RNGestureHandler: a4ddde1ffc6e590c8127b8b7eabfdade45475c74
   RNGL: cb1021a8021300492e6413d17700113d0e65cee1
+  RNReanimated: b2ab0b693dddd2339bd2f300e770f6302d2e960c
+  SIFloatingCollection: 096160b220e3a1b1cbcf349108ee24d3aa6b86de
   Yoga: 02036f6383c0008edb7ef0773a0e6beb6ce82bd1
 
-PODFILE CHECKSUM: 6845ea2e1cfd54429b9a35ad1daa04d445f7bae4
+PODFILE CHECKSUM: a22debc7c3fd9c965e953ab31c537c4ef905cef4
 
 COCOAPODS: 1.8.3

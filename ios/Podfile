@@ -1,5 +1,6 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+source 'https://github.com/CocoaPods/Specs.git'
 
 target 'RoomAnimations' do
   # Pods for RoomAnimations
@@ -40,6 +41,7 @@ target 'RoomAnimations' do
   end
 
   use_native_modules!
+  # use_frameworks!
 end
 
 target 'RoomAnimations-tvOS' do
@@ -49,5 +51,4 @@ target 'RoomAnimations-tvOS' do
     inherit! :search_paths
     # Pods for testing
   end
-
 end

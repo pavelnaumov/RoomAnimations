@@ -9,7 +9,7 @@ const AppNavigator = createStackNavigator(
     Bubbles: BubblePickerRoom,
   },
   {
-    initialRouteName: 'World',
+    initialRouteName: 'Bubbles',
   },
 );
 

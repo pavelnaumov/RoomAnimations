@@ -95,6 +95,7 @@ class BubblePickerRoom extends Component {
         {...PickerProps}
         items={items}
         onPress={this.onBubblePress}
+        style={{height, width}}
       />
     );
 

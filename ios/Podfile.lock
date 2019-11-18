@@ -265,7 +265,7 @@ DEPENDENCIES:
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - boost-for-react-native
     - SIFloatingCollection
 
@@ -364,4 +364,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: a22debc7c3fd9c965e953ab31c537c4ef905cef4
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.8.3
